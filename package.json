@@ -1,22 +1,24 @@
-{
-  "name": "@rexxhayanasi/elaina-baileys",
-  "version": "1.0.1-rc.4",
-  "description": "Custom Baileys WhatsApp API",
+// {
+  "name": "@thenux/sula-baileys",
+  "version": "1.0.2",
+  "description": "@thenux/sula-baileys: Custom Baileys WhatsApp API",
   "keywords": [
-    "baileys", 
-    "baileys-mod", 
-    "wabot", 
+    "@thenux/sula-baileys",
+    "sula-baileys",
+    "baileys",
+    "baileys-mod",
+    "wabot",
     "whatsapp",
-    "js-whatsapp", 
-    "whatsapp-api", 
+    "js-whatsapp",
+    "whatsapp-api",
     "whatsapp-web",
     "whatsapp-bot",
-    "automation", 
+    "automation",
     "multi-device"
   ],
   "homepage": "https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107",
   "license": "MIT",
-  "author": "RexxHayanasi",
+  "author": "Thenux, Sula, Podda mods",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -35,8 +37,8 @@
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
-    "prepack": "echo '@rexxhayanasi/elaina-bail'",
-    "prepare": "echo '@rexxhayanasi/elaina-bail'",
+    "prepack": "echo '@thenux/sula-baileys'",
+    "prepare": "echo '@thenux/sula-baileys'",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
     "test": "jest"
@@ -106,5 +108,12 @@
   "packageManager": "yarn@1.22.19",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thenux/sula-baileys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thenux/sula-baileys/issues"
   }
 }
