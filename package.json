@@ -1,4 +1,4 @@
-// {
+ {
   "name": "@thenux/sula-baileys",
   "version": "1.0.2",
   "description": "@thenux/sula-baileys: Custom Baileys WhatsApp API",
@@ -16,7 +16,7 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107",
+  "homepage": "https://github.com/blue-crack/sula-baileys",
   "license": "MIT",
   "author": "Thenux, Sula, Podda mods",
   "main": "lib/index.js",
@@ -111,9 +111,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thenux/sula-baileys.git"
+    "url": "https://github.com/blue-crack/sula-baileys.git"
   },
   "bugs": {
-    "url": "https://github.com/thenux/sula-baileys/issues"
+    "url": "https://github.com/blue-crack/sula-baileys/issues"
   }
 }
